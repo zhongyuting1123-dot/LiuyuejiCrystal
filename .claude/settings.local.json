@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ffmpeg -version 2>/dev/null | head -1)",
+      "Bash(where ffmpeg:*)",
+      "Bash(winget install:*)",
+      "Bash(git config:*)",
+      "Bash(env)",
+      "Bash(curl -L -o \"D:/softwares/ffmpeg.zip\" \"https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip\" 2>&1)"
+    ]
+  }
+}
